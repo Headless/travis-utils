@@ -1,13 +1,7 @@
 #!/bin/bash
-#
-# Echo Travis ENV Vars
-#
+
 # This script outputs all of the environment vars
-# set by travis. Useful for testing, planning,
-# and getting to know Travis better.
-#
-# Updated: 6/25/2018
-# Author: ian@iangolden.com - github.com/igolden
+# sef by travis.
 
 echo "---------------------------------"
 echo "Default ENV Vars"
@@ -98,3 +92,4 @@ echo "TRAVIS_XCODE_PROJECT: $TRAVIS_XCODE_PROJECT"
 echo "TRAVIS_XCODE_WORKSPACE: $TRAVIS_XCODE_WORKSPACE"
 echo "---------------------------------"
 echo ""
+
